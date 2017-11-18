@@ -6,7 +6,7 @@ provider "aws" {
 
 resource "aws_key_pair" "tdcc-keypair" {
   key_name = "${var.keyname}"
-  public_key = "${file("./keys/id_aws_tdcc.pub")}"
+  public_key = "${file("./keys/aws_tdcc.pub")}"
 }
 
 resource "tls_private_key" "tdcc-key" {
