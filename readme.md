@@ -21,7 +21,7 @@ secret_key = "<input your aws secret key>"
 
 
 ### Deploying
-To run the automation you navigate to the repo run 3 commands
+This automation runs off 3 commands:
 
 ```
 terraform init
