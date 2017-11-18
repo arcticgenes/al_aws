@@ -1,8 +1,6 @@
 # TeraData Code Challenge
 
-This repo contains a collection of Terraform files that satisfies the requirements of the code challenge.
-
-(3) ubuntu web servers (1 Apache, 2 NGINX) will be created in a aws region behind a vpc elastic load balancer with SSL termination.
+This repo is a collection of Terraform files that satisfies the requirements of an interview code challenge.
 
 
 ### Prerequisites
@@ -42,7 +40,7 @@ This will kick off the automation.  When finished it will output the public IPs 
 
 ## Disclaimers
 
-*The SSL certificate is created via a terraform resource and is self-signed. A browser warning will pop-up when accessing the https site*
+*The SSL certificate used for the ELB is created via a terraform resource and is self-signed. A browser warning will pop-up when accessing the https site*
 
 *DNS propogations from AWS can take a few minutes.  The URL endpoints may not work immediately.*
 
